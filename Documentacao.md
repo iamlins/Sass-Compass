@@ -35,10 +35,24 @@ Variáveis em Sass (Syntactically Awesome Style Sheets) são usadas para armazen
 ## Mixins
 ### O que é Mixins?
 Os mixins são uma funcionalidade do SASS que permitem criar blocos de código reutilizáveis. Eles funcionam de forma semelhante a funções em outras linguagens de programação.
-
 Com os mixins, é possível definir um conjunto de estilos que pode ser aplicado a diferentes elementos ou classes. Isso ajuda a evitar repetições de código e facilita a manutenção dos estilos.
-
 Para criar um mixin, você utiliza a diretiva `@mixin` seguida do nome do mixin e dos estilos que deseja aplicar. Por exemplo:
+
+```
+@mixin estilo-botao {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.botao {
+  @include estilo-botao;
+}
+```
+
+### Nesse exemplo, o mixin estilo-botao define um conjunto de estilos para um botão. Em seguida, o mixin é aplicado à classe .botao utilizando a diretiva @include. Isso faz com que os estilos definidos no mixin sejam aplicados à classe.
+
 
 ## Aninhamento 
 ### O que é Aninhamento?
