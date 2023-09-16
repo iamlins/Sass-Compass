@@ -23,8 +23,9 @@ SASS (Syntactically Awesome Style Sheets), um pré-processador de CSS que oferec
 em uma aplicação web. O SASS permite criar variáveis, classes aninhadas, particionar arquivos e importar estilos e variáveis de forma mais fácil.
 
 ## Variáveis
-### O que é variáveis? 
+### O que é variáveis?
 Variáveis em Sass (Syntactically Awesome Style Sheets) são usadas para armazenar valores que você deseja reutilizar em seu código CSS. Elas são declaradas com o prefixo $ seguido de um nome de variável e um valor. As variáveis facilitam a manutenção do código, pois permitem que você defina um valor em um único lugar e o use em vários locais dentro do seu arquivo Sass.
+
 
 ## Mixins
 ### O que é Mixins?
@@ -66,9 +67,11 @@ Os mixins são uma poderosa ferramenta do SASS que ajudam a tornar o código mai
 
 ## Aninhamento 
 ### O que é Aninhamento?
+
 Classes aninhadas são uma funcionalidade do SASS que permite definir estilos para elementos HTML que estão dentro de outros elementos. Com as classes aninhadas, é possível escrever estilos de forma mais organizada e modular, evitando repetições de código. Por exemplo, ao definir um estilo para um elemento pai, é possível definir estilos para os elementos filhos dentro dessa classe, sem precisar repetir o seletor completo. Isso torna o código mais legível e fácil de manter.
 
 Suponha que você tenha a seguinte estrutura HTML:
+
 
 ```<div class="container">
   <div class="header">
