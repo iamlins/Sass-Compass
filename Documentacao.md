@@ -123,9 +123,14 @@ Suponha que você tenha a seguinte estrutura HTML:
 Os operadores são utilizados para realizar operações matemáticas e manipular valores. Existem quatro tipos de operadores em Sass:
 
 1. Operadores aritméticos: São utilizados para realizar operações matemáticas, como adição (+), subtração (-), multiplicação (*) e divisão (/).
-2. Operadores de comparação: São utilizados para comparar valores, como igual a (==), diferente de (!=), maior que (>), menor que (<), maior ou igual a (>=) e menor ou igual a (<=).
-3. Operadores lógicos: São utilizados para combinar expressões lógicas, como "e" (and), "ou" (or) e "não" (not).
-4. Operadores de concatenação: São utilizados para concatenar strings, como o operador de concatenação (+).
+
+```
+$largura: 200px; $altura: 150px;
+div { width: $largura + 50px; height: $altura - 20px; font-size: $largura * 0.5; line-height: $altura / 2; }
+```
+3. Operadores de comparação: São utilizados para comparar valores, como igual a (==), diferente de (!=), maior que (>), menor que (<), maior ou igual a (>=) e menor ou igual a (<=).
+4. Operadores lógicos: São utilizados para combinar expressões lógicas, como "e" (and), "ou" (or) e "não" (not).
+5. Operadores de concatenação: São utilizados para concatenar strings, como o operador de concatenação (+).
 
 Esses operadores são úteis para realizar cálculos, comparações e manipulações de valores dentro do Sass, permitindo criar estilos dinâmicos e reutilizáveis. Espero que isso esclareça sua dúvida!
 
