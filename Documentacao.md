@@ -13,12 +13,6 @@
    
 
 
-# Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-## Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-## Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
 
 
 
@@ -52,6 +46,22 @@ Para criar um mixin, você utiliza a diretiva `@mixin` seguida do nome do mixi
 ```
 
 ### Nesse exemplo, o mixin estilo-botao define um conjunto de estilos para um botão. Em seguida, o mixin é aplicado à classe .botao utilizando a diretiva @include. Isso faz com que os estilos definidos no mixin sejam aplicados à classe.
+Os mixins podem receber parâmetros, o que permite torná-los mais flexíveis e reutilizáveis. Por exemplo:
+
+```
+@mixin estilo-botao($cor, $tamanho) {
+  background-color: $cor;
+  color: white;
+  padding: $tamanho;
+  border-radius: 5px;
+}
+
+.botao {
+  @include estilo-botao(blue, 10px);
+}
+```
+### Nesse exemplo, o mixin `estilo-botao` recebe dois parâmetros: `$cor` e `$tamanho`. Ao utilizar o mixin, é possível passar valores diferentes para esses parâmetros, personalizando os estilos do botão.
+Os mixins são uma poderosa ferramenta do SASS que ajudam a tornar o código mais modular, reutilizável e fácil de manter.
 
 
 ## Aninhamento 
