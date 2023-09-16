@@ -1,8 +1,16 @@
 # Documentacao Sass e Compass
 
 1. [O que é Sass?](#sass)
-2. [O que é variáveis?](#variáveis)
-3. 
+2. [O que é Variáveis?](#variáveis)
+3. [O que é Mixins?](#mixins)
+4. [O que é Aninhamento?](#aninhamento)
+5. [O que é Operadores?](#operadores)
+6. [O que é Controle de fluxo?](#controle-de-fluxo)
+7. [O que é Loops?](#loops)
+8. [O que é Funções?](#variáveis)
+9. [Para que serve Importação de arquivos?](#importação-de-arquivos)
+10. [Para que serve os Comentarios?](#comentários)
+   
 
 
 # Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
