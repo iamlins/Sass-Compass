@@ -34,7 +34,11 @@ Variáveis em Sass (Syntactically Awesome Style Sheets) são usadas para armazen
 
 ## Mixins
 ### O que é Mixins?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Os mixins são uma funcionalidade do SASS que permitem criar blocos de código reutilizáveis. Eles funcionam de forma semelhante a funções em outras linguagens de programação.
+
+Com os mixins, é possível definir um conjunto de estilos que pode ser aplicado a diferentes elementos ou classes. Isso ajuda a evitar repetições de código e facilita a manutenção dos estilos.
+
+Para criar um mixin, você utiliza a diretiva `@mixin` seguida do nome do mixin e dos estilos que deseja aplicar. Por exemplo:
 
 ## Aninhamento 
 ### O que é Aninhamento?
@@ -53,9 +57,10 @@ Suponha que você tenha a seguinte estrutura HTML:
 </div>
 ```
 
-### Agora em Sass ele ficaria da seguinte maneira
+### Agora em Sass ele ficaria da seguinte maneira:
 
-```.container {
+```
+.container {
   background-color: #f0f0f0;
 }
 
