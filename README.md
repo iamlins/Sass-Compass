@@ -25,14 +25,10 @@ Uma documentação pessoal em md sobre Sass e Compass.
 
 >Citacao Sass
 
-Estou explicado Sass, faznedo uma documentacao <html>
 
-´´´
-Sass 
-´´´
-''' 
-npm 
-'''
+
+
+´´´Sass´´´ 
 
 
 
