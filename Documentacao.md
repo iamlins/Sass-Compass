@@ -118,4 +118,16 @@ Suponha que você tenha a seguinte estrutura HTML:
 }
 ```
 
+## Operadores
+### O que é Operadores? 
+os operadores são utilizados para realizar operações matemáticas e manipular valores. Existem quatro tipos de operadores em Sass:
+
+1. Operadores aritméticos: São utilizados para realizar operações matemáticas, como adição (+), subtração (-), multiplicação (*) e divisão (/).
+2. Operadores de comparação: São utilizados para comparar valores, como igual a (==), diferente de (!=), maior que (>), menor que (<), maior ou igual a (>=) e menor ou igual a (<=).
+3. Operadores lógicos: São utilizados para combinar expressões lógicas, como "e" (and), "ou" (or) e "não" (not).
+4. Operadores de concatenação: São utilizados para concatenar strings, como o operador de concatenação (+).
+
+Esses operadores são úteis para realizar cálculos, comparações e manipulações de valores dentro do Sass, permitindo criar estilos dinâmicos e reutilizáveis. Espero que isso esclareça sua dúvida!
+
+
 
