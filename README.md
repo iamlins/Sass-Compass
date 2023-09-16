@@ -25,9 +25,14 @@ Uma documentação pessoal em md sobre Sass e Compass.
 
 >Citacao Sass
 
-
+Estou explicando alguns conceitos em Sass
 
  ```sass```
+
+ ```python
+def hello_world():
+print("Hello, world!")
+```
 
 
 
