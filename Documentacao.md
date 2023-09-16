@@ -25,7 +25,7 @@
 
 ## Sass
 ### O que é Sass? 
-SASS (Syntactically Awesome Style Sheets), um pré-processador de CSS que oferece recursos adicionais e facilita a organização e manutençãodos estilos
+SASS (Syntactically Awesome Style Sheets), um pré-processador de CSS que oferece recursos adicionais e facilita a organização e manutenção dos estilos
 em uma aplicação web. O SASS permite criar variáveis, classes aninhadas, particionar arquivos e importar estilos e variáveis de forma mais fácil.
 
 ## Variáveis
@@ -38,5 +38,18 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ## Aninhamento 
 ### O que é Aninhamento?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Classes aninhadas são uma funcionalidade do SASS que permite definir estilos para elementos HTML que estão dentro de outros elementos. Com as classes aninhadas, é possível escrever estilos de forma mais organizada e modular, evitando repetições de código. Por exemplo, ao definir um estilo para um elemento pai, é possível definir estilos para os elementos filhos dentro dessa classe, sem precisar repetir o seletor completo. Isso torna o código mais legível e fácil de manter.
+
+Suponha que você tenha a seguinte estrutura HTML:
+
+<div class="container">
+  <div class="header">
+    <h1>Título</h1>
+    <p>Descrição</p>
+  </div>
+  <div class="content">
+    <p>Conteúdo principal</p>
+  </div>
+</div>
+
 
