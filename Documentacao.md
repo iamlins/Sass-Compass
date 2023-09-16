@@ -1,4 +1,4 @@
-# Documentacao Sass e Compass
+# Documentação Sass e Compass
 
 1. [O que é Sass?](#sass)
 2. [O que é Variáveis?](#variáveis)
@@ -120,7 +120,7 @@ Suponha que você tenha a seguinte estrutura HTML:
 
 ## Operadores
 ### O que é Operadores? 
-os operadores são utilizados para realizar operações matemáticas e manipular valores. Existem quatro tipos de operadores em Sass:
+Os operadores são utilizados para realizar operações matemáticas e manipular valores. Existem quatro tipos de operadores em Sass:
 
 1. Operadores aritméticos: São utilizados para realizar operações matemáticas, como adição (+), subtração (-), multiplicação (*) e divisão (/).
 2. Operadores de comparação: São utilizados para comparar valores, como igual a (==), diferente de (!=), maior que (>), menor que (<), maior ou igual a (>=) e menor ou igual a (<=).
