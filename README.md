@@ -1,7 +1,7 @@
 # Sass-Compass
 Uma documentação pessoal em md sobre Sass e Compass.
 
-
+[O que é Sass?](#o-que-e-sass)
 
 - [O que é Sass?](#SASSSyntacticallyAwesomeStyleSheets)
 
@@ -12,9 +12,11 @@ Uma documentação pessoal em md sobre Sass e Compass.
   - [Subseção 2.2](#subseção-22)
 
 
-## Meu Cabeçalho {#meu-id-personalizado}
+## O que é Sass? {#o-que-e-sass}
+SASS (Syntactically Awesome Style Sheets), um pré-processador de CSS que oferece recursos adicionais e facilita a organização e manutenção dos estilos em uma aplicação web. O SASS permite criar variáveis, classes aninhadas, particionar arquivos e importar estilos e variáveis de forma mais fácil
 
-[Ir para Meu Cabeçalho](#meu-id-personalizado)
+
+
 
 
 
