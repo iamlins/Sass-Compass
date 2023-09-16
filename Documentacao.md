@@ -50,7 +50,8 @@ Suponha que você tenha a seguinte estrutura HTML:
   <div class="content">
     <p>Conteúdo principal</p>
   </div>
-</div> ```
+</div>
+```
 
 ### Agora em Sass ele ficaria da seguinte maneira
 
