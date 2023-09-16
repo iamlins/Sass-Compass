@@ -1,7 +1,6 @@
 # Sass-Compass
 Uma documentação pessoal em md sobre Sass e Compass.
 
-[O que é Sass?](#o-que-e-sass)
 [Ir para Meu Cabeçalho](#meu-id-personalizado)
 
 
