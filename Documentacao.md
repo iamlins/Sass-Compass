@@ -128,9 +128,25 @@ Os operadores são utilizados para realizar operações matemáticas e manipular
 $largura: 200px; $altura: 150px;
 div { width: $largura + 50px; height: $altura - 20px; font-size: $largura * 0.5; line-height: $altura / 2; }
 ```
-3. Operadores de comparação: São utilizados para comparar valores, como igual a (==), diferente de (!=), maior que (>), menor que (<), maior ou igual a (>=) e menor ou igual a (<=).
-4. Operadores lógicos: São utilizados para combinar expressões lógicas, como "e" (and), "ou" (or) e "não" (not).
-5. Operadores de concatenação: São utilizados para concatenar strings, como o operador de concatenação (+).
+2. Operadores de comparação: São utilizados para comparar valores, como igual a (==), diferente de (!=), maior que (>), menor que (<), maior ou igual a (>=) e menor ou igual a (<=).
+
+```
+$idade: 18;
+@if $idade >= 18 { // Código para maiores de idade } @else { // Código para menores de idade }
+```
+3. Operadores lógicos: São utilizados para combinar expressões lógicas, como "e" (and), "ou" (or) e "não" (not).
+
+```
+$cor-fundo: #FFFFFF; $cor-texto: #000000;
+@if $cor-fundo == #FFFFFF and $cor-texto == #000000 { // Código para cores padrão } @else { // Código para outras combinações de cores }
+``` 
+4. Operadores de concatenação: São utilizados para concatenar strings, como o operador de concatenação (+).
+
+ ```
+$nome: "João"; $sobrenome: "Silva";
+$nome-completo: $nome + " " + $sobrenome;
+p { content: "Olá, " + $nome-completo + "! Bem-vindo!"; }
+ ```
 
 Esses operadores são úteis para realizar cálculos, comparações e manipulações de valores dentro do Sass, permitindo criar estilos dinâmicos e reutilizáveis. Espero que isso esclareça sua dúvida!
 
