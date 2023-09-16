@@ -50,6 +50,30 @@ Suponha que você tenha a seguinte estrutura HTML:
   <div class="content">
     <p>Conteúdo principal</p>
   </div>
-</div>```
+</div> ```
+
+### Agora em Sass ele ficaria da seguinte maneira
+
+```.container {
+  background-color: #f0f0f0;
+}
+
+.container .header {
+  background-color: #333;
+  color: #fff;
+}
+
+.container .header h1 {
+  font-size: 24px;
+}
+
+.container .header p {
+  font-size: 16px;
+}
+
+.container .content {
+  padding: 20px;
+}
+```
 
 
