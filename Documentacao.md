@@ -150,5 +150,17 @@ p { content: "Olá, " + $nome-completo + "! Bem-vindo!"; }
 
 Esses operadores são úteis para realizar cálculos, comparações e manipulações de valores dentro do Sass, permitindo criar estilos dinâmicos e reutilizáveis. Espero que isso esclareça sua dúvida!
 
+## Controle de fluxo
+### O que é Controle de fluxo? 
+Controle de fluxo é uma estrutura utilizada em programação para controlar a execução de um programa, permitindo que certas partes do código sejam executadas apenas se determinadas condições forem atendidas.
+Em Sass, o controle de fluxo é geralmente realizado por meio de diretivas condicionais, como @if, @else if e @else. Essas diretivas permitem que você execute diferentes blocos de código com base em condições específicas.
+
+```
+$idade: 18;
+@if $idade >= 18 { // Código para maiores de idade } @else { // Código para menores de idade }
+```
+
+### Nesse exemplo, utilizamos a diretiva @if para verificar se a variável $idade é maior ou igual a 18. Se a condição for verdadeira, o bloco de código dentro do @if será executado. Caso contrário, o bloco de código dentro do @else será executado.
+
 
 
