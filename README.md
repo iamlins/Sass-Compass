@@ -3,7 +3,7 @@ Uma documentação pessoal em md sobre Sass e Compass.
 
 
 
-- [O que é Sass?](#SASS (Syntactically Awesome Style Sheets))
+- [O que é Sass?](#SASSSyntacticallyAwesomeStyleSheets)
 
   - [Subseção 1.1](#subseção-11)
   - [Subseção 1.2](#subseção-12)
