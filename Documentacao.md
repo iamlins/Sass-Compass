@@ -26,6 +26,15 @@ em uma aplicação web. O SASS permite criar variáveis, classes aninhadas, part
 ### O que é variáveis?
 Variáveis em Sass (Syntactically Awesome Style Sheets) são usadas para armazenar valores que você deseja reutilizar em seu código CSS. Elas são declaradas com o prefixo $ seguido de um nome de variável e um valor. As variáveis facilitam a manutenção do código, pois permitem que você defina um valor em um único lugar e o use em vários locais dentro do seu arquivo Sass.
 
+Abaixo mostro um exemplo de como criar uma variável em Sass:
+```
+$cor-primaria: #FF0000; $cor-secundaria: #00FF00;
+
+body { background-color: $cor-primaria; }
+
+h1 { color: $cor-secundaria; }
+```
+
 
 ## Mixins
 ### O que é Mixins?
