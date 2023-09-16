@@ -42,7 +42,7 @@ Classes aninhadas são uma funcionalidade do SASS que permite definir estilos pa
 
 Suponha que você tenha a seguinte estrutura HTML:
 
-<div class="container">
+```<div class="container">
   <div class="header">
     <h1>Título</h1>
     <p>Descrição</p>
@@ -50,6 +50,6 @@ Suponha que você tenha a seguinte estrutura HTML:
   <div class="content">
     <p>Conteúdo principal</p>
   </div>
-</div>
+</div>```
 
 
