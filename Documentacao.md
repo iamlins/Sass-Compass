@@ -9,7 +9,7 @@
 5. [O que é Operadores?](#operadores)
 6. [O que é Controle de fluxo?](#controle-de-fluxo)
 7. [O que é Loops?](#loops)
-8. [O que é Funções?](#variáveis)
+8. [O que é Funções?](#funções)
 9. [Para que serve Importação de arquivos?](#importação-de-arquivos)
 10. [Para que serve os Comentarios?](#comentários)
    
@@ -38,7 +38,7 @@ body { background-color: $cor-primaria; }
 
 h1 { color: $cor-secundaria; }
 ```
-
+[voltar ao topo da página](#topo)
 
 ## Mixins
 ### O que é Mixins?
@@ -77,6 +77,7 @@ Os mixins podem receber parâmetros, o que permite torná-los mais flexíveis e 
 ### Nesse exemplo, o mixin `estilo-botao` recebe dois parâmetros: `$cor` e `$tamanho`. Ao utilizar o mixin, é possível passar valores diferentes para esses parâmetros, personalizando os estilos do botão.
 Os mixins são uma poderosa ferramenta do SASS que ajudam a tornar o código mais modular, reutilizável e fácil de manter.
 
+[voltar ao topo da página](#topo)
 
 ## Aninhamento 
 ### O que é Aninhamento?
@@ -121,6 +122,7 @@ Suponha que você tenha a seguinte estrutura HTML:
   padding: 20px;
 }
 ```
+[voltar ao topo da página](#topo)
 
 ## Operadores
 ### O que é Operadores? 
@@ -183,3 +185,8 @@ Loops, ou laços de repetição, são estruturas utilizadas em programação par
 $cores: red, green, blue;
 @each $cor in $cores { // Código a ser repetido background-color: $cor; }
 ```
+
+[voltar ao topo da página](#topo)
+
+## Funções
+### O que é Funções?
