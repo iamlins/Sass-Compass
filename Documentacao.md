@@ -193,10 +193,12 @@ $cores: red, green, blue;
 ## Funções
 ### O que é Funções?
 As funções são blocos de código reutilizáveis que podem receber parâmetros e retornar um valor. Elas permitem criar estilos dinâmicos e personalizados de acordo com as necessidades do projeto.
+
 [voltar ao topo da página](#topo)
 
 ## Importação de arquivos
 ### Para que serve a Importação de arquivos
 A importação de arquivos em Sass permite dividir o código em vários arquivos e organizá-los de forma modular. Isso facilita a manutenção e reutilização do código, tornando-o mais legível e organizado.
+
 [voltar ao topo da página](#topo)
 
