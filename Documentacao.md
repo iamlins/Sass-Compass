@@ -1,5 +1,7 @@
 # Documentação Sass e Compass
-<div id="topo"></div>   
+
+<div id="topo"></div>  
+
 1. [O que é Sass?](#sass)
 2. [O que é Variáveis?](#variáveis)
 3. [O que é Mixins?](#mixins)
