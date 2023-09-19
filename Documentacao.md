@@ -202,3 +202,9 @@ A importação de arquivos em Sass permite dividir o código em vários arquivos
 
 [voltar ao topo da página](#topo)
 
+## Comentarios 
+### Para que serve os Comentarios?
+Os comentários em Sass servem para adicionar notas ou explicações no código, sem que essas informações sejam interpretadas pelo compilador. Eles são úteis para documentar o código, fornecer explicações sobre a lógica ou intenção por trás de determinadas partes do código, ou até mesmo para desativar temporariamente um trecho de código.
+
+[voltar ao topo da página](#topo)
+
