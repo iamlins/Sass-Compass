@@ -12,6 +12,7 @@
 8. [O que é Funções?](#funções)
 9. [Para que serve Importação de arquivos?](#importação-de-arquivos)
 10. [Para que serve os Comentarios?](#comentários)
+11. [O que é Compass](#Compass)
    
 
 
@@ -207,4 +208,12 @@ A importação de arquivos em Sass permite dividir o código em vários arquivos
 Os comentários em Sass servem para adicionar notas ou explicações no código, sem que essas informações sejam interpretadas pelo compilador. Eles são úteis para documentar o código, fornecer explicações sobre a lógica ou intenção por trás de determinadas partes do código, ou até mesmo para desativar temporariamente um trecho de código.
 
 [voltar ao topo da página](#topo)
+
+## Compass
+### O que é Compass?
+Compass é uma biblioteca Sass que fornece um conjunto de utilitários e mixins pré-definidos para facilitar o desenvolvimento de estilos CSS. Ele oferece recursos como mixins para criar gradientes, sombras, transformações e transições, além de funções para manipulação de cores, tipografia e muito mais. O Compass também possui um sistema de grid responsivo integrado, facilitando a criação de layouts flexíveis. No entanto, é importante mencionar que o Compass foi descontinuado e não é mais mantido ativamente. Recomenda-se o uso de outras bibliotecas ou abordagens, como o uso de frameworks CSS modernos, para obter funcionalidades semelhantes.
+
+[voltar ao topo da página](#topo)
+
+
 
