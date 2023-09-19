@@ -168,6 +168,8 @@ $idade: 18;
 
 ### Nesse exemplo, utilizamos a diretiva @if para verificar se a variável $idade é maior ou igual a 18. Se a condição for verdadeira, o bloco de código dentro do @if será executado. Caso contrário, o bloco de código dentro do @else será executado.
 
+[voltar ao topo da página](#topo)
+
 ## Loops
 ### O que são os Loops?
 Loops, ou laços de repetição, são estruturas utilizadas em programação para executar um bloco de código várias vezes. Em Sass, existem duas diretivas principais para a criação de loops: @for e @each.
